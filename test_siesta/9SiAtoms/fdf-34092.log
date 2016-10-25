@@ -1,0 +1,33 @@
+SystemName     Si                                                                              
+SystemLabel     Si+I                                                                            
+XML.Write              T     # default value
+XML.AbortOnErrors              F     # default value
+XML.AbortOnWarnings              F     # default value
+timer_report_threshold          0.000000000         # default value
+UseTreeTimer              F     # default value
+alloc_report_level         0     # default value
+alloc_report_threshold          0.000000000         # default value
+xc.functional     LDA     # default value
+xc.authors     PZ     # default value
+MM.Cutoff          30.00000000     Bohr     # default value
+MM.UnitsEnergy     eV     # default value
+MM.UnitsDistance     Ang     # default value
+WriteIonPlotFiles              F     # default value
+Atom.Debug.KB.Generation              F     # default value
+KB.New.Reference.Orbitals              F     # default value
+user-basis              F     # default value
+user-basis-netcdf              F     # default value
+ReparametrizePseudos              F     # default value
+Restricted.Radial.Grid              T     # default value
+Rmax.Radial.Grid          0.000000000         # default value
+PAO.BasisSize     SZP                                                                             
+PAO.BasisType     split          # default value
+PAO.SoftDefault              F     # default value
+PAO.SoftInnerRadius         0.9000000000         # default value
+PAO.SoftPotential          40.00000000         # default value
+PAO.SplitNorm         0.1500000000         # default value
+PAO.SplitNormH         -1.000000000         # default value
+Number_of_species              1
+%block Chemical_species_label
+  1  14 Si #33 As
+%endblock Chemical_species_label

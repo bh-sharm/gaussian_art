@@ -1,0 +1,25 @@
+
+
+The files provided here are meant to give an exemple of the file formats used 
+in a typical siestart run. As they were taken from different runs simulating 
+different systems, they are not currently meant to be compatible with each 
+other. It is the user's responsibility to adapt them to his own needs and 
+calculation architecture.  
+
+
+
+
+# bharat debugging
+siesta_force.f90: 
+ integer, parameter :: FSIESTA = 21
+  real*8, parameter :: ZERO = 0.0d0
+  character(len=20) :: SIESTA   = 'art2siesta'
+  character(len=20) :: SIESTAFORCE = 'siesta2art'
+
+
+
+
+
+
+
+

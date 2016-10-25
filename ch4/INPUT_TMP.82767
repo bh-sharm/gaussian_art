@@ -1,0 +1,15 @@
+MD.TypeOfRun         cg
+MD.NumCGsteps         0
+MD.MaxCGDispl         0.1  Ang
+MD.MaxForceTol        0.002  eV/Ang
+%block Atomic_Coordinates_and_Atomic_Species
+    0.77884934    0.01004338   -0.00886736   1
+    1.16685153    0.76801650   -0.76928940   2
+    1.17648580   -1.03302895   -0.28762350   2
+    1.17698814    0.29003261    1.02781630   2
+   -1.13831196   -0.36099928   -0.18315754   1
+   -0.69894382    0.28867065   -1.05169799   2
+   -0.99230987   -1.03892455    1.32828395   2
+   -1.47503302    1.07631935   -0.05570401   2
+%endblock Atomic_Coordinates_and_Atomic_Species
+%include basicinfo.fdf
